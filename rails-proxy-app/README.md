@@ -1,24 +1,18 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails Proxy App
 
-Things you may want to cover:
+This application acts as a proxy server that caches responses from other servers.
 
-* Ruby version
+## How to run
 
-* System dependencies
+1. Install dependencies:
+   ```bash
+   bundle install
+   ```
 
-* Configuration
+2. Start the server on the default port (3000):
+   ```bash
+   rails s
+   ```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The proxy will be available at: [http://localhost:3000](http://localhost:3000)e
