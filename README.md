@@ -1,6 +1,9 @@
 # Rails Proxy Project
 
-This project contains 3 main modules
+## Description
+This project is a build of a caching server that caches responses from other servers
+
+Contains 3 main modules
 
 1. **Proxy Server** Located in `rails-proxy-app/` [See README](https://github.com/jDebu/rails-proxy/blob/main/rails-proxy-app/README.md)
 2. **Backend Server** Located in `rails-server-app/` [See README](https://github.com/jDebu/rails-proxy/tree/main/rails-server-app#readme)
