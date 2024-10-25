@@ -11,6 +11,7 @@ class CacheProxyService
     cached_response = Rails.cache.read(cache_key)
 
     if cached_response
+      Rails.logger.info "Cached: #{cache_key}"
       cached_response
     else
       response = Faraday.get(@url)
